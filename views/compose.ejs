@@ -1,9 +1,17 @@
 <%- include('partials/header') -%> 
 <h1>Compose</h1>
+<h5>Title</h5>
 <form action="/compose" method="post">
     <div class="input-group mb-3">
-        <input type="text" class="form-control" name="article" placeholder="Type your article" required autofocus>
-        <button class="btn btn-outline-secondary" type="submit" id="button-addon1">Submit</button>
-      </div>
+        <input type="text" class="form-control" name="title_text" placeholder="Type your article title" required autofocus>
+    </div>
+
+<h5>Post</h5>
+
+    <div class="input-group mb-3">
+        <textarea type="text" class="form-control height_textbox" name="post_text" placeholder="Type your post text" required></textarea>
+    </div>
+    
+    <button class="btn btn-outline-secondary" type="submit" id="button-addon1">Submit</button>
 </form>
 <%- include('partials/footer') -%> 

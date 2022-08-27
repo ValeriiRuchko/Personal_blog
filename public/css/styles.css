@@ -46,3 +46,9 @@
 .container {
     margin-top: 1.5rem;
 }
+
+.height_textbox {
+    display: inline-block;
+    padding: 1% 1% 8%;
+    line-height:100%;
+}
